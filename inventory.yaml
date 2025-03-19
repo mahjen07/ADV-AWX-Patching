@@ -1,0 +1,7 @@
+---
+all:
+  hosts:
+    Server1:
+      ansible_host: 10.120.20.135:
+    Server2:
+      ansible_host: 10.120.20.149:
