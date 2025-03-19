@@ -1,3 +1,8 @@
-- name: Return motd to registered var
-  ansible.builtin.command: cat /etc/motd
-  register: mymotd
+---
+- name: Hello World!
+  hosts: all
+ 
+  tasks:
+ 
+  - name: Hello World!
+    shell: echo "Hi! Tower is working!"
